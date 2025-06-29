@@ -2,7 +2,7 @@
 
 Clerq Assessment
 
-1. git clone
+1. Clone the repo:  git clone https://github.com/timuy/clerq-assessment.git
 2. Install Docker Desktop (https://www.docker.com/products/docker-desktop/)
 3. Rename .env.example to .env
 4. Run docker-compose to spin up Docker locally
