@@ -1,0 +1,13 @@
+
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: clerq-assessment
+    volumes:
+      - .:/app
+    restart: unless-stopped
+    tty: true
+    privileged: true

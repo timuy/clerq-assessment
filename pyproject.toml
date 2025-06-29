@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "clerq-assessment"
+version = "1.0.0"
+description = "Clerq Assessment"
+authors = ["Tim Uy <timuy@yahoo.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "2.32.4"
+fastapi = "0.115.13"
+python-dotenv = "^1.1.1"
+
+[tool.poetry.dev-dependencies]
+uvicorn = "0.35.0"
+ruff = "0.12.1"
+pytest = "8.4.1"
+
+[tool.poetry.group.dev.dependencies]
+httpx = "^0.28.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
